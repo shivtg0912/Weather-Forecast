@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shiv's weather forecast</title>
+  <link rel="stylesheet" href="wapp.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <main>
+    <div class="image">
+      <img src="images.png">
+    </div>
+    <h1>Daily Weather Forecast</h1>
+
+      <div class="input">
+        <input type="text" placeholder="Enter the city" class="input_text">
+        <input type="button" value="Submit" class="submit">
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="name" id="name">City Name</h2>
+      <div class="card"> 
+        <span class="temp">Temp-</span>
+        <span class="desc">Description-</span>
+        <span class="humid">Humidity-</span>
+        <span class="temp_min">Min.-</span>
+        <span class="temp_max">Max.-</span>
+      </div>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <td>
+              <p class="head">Next Four day Forecast</p>
+          </td>
+          <td>
+            <div class="day">
+              <p class="date">Sat Feb 11 2023</p>
+              <p>31 &#8451 / 25 &#8451</p>
+              <p class="desc">Overcast Clouds</p>
+            </div>
+
+          </td>
+          <td>
+            <div class="day">
+              <p class="date">Sun Feb 12 2023</p>
+              <p>31 &#8451 / 25 &#8451</p>
+              <p class="desc">Overcast Clouds</p>
+          </div>
+
+          </td>
+          <td>
+            <div class="day">
+              <p class="date">Mon Feb 13 2023</p>
+              <p>31 &#8451 / 25 &#8451</p>
+              <p class="desc">Overcast Clouds</p>
+          </div>
+
+          </td>
+          <td>
+            <div class="day">
+              <p class="date">Tue Feb 14 2023</p>
+              <p>31 &#8451 / 25 &#8451</p>
+              <p class="desc">Overcast Clouds</p>
+          </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </main>
+   
+<script src="weather.js"></script>
+</body>
+</html>
