@@ -11,6 +11,8 @@ body{
 }
 
 h1{
+    padding: 12px;
+    background-color: linen;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 50px;
@@ -59,6 +61,7 @@ input{
     height:350px;
     width:55%;
     border-radius:5px;
+    margin-bottom:10px;
 }
 .card{
     width: 100%;
@@ -106,6 +109,7 @@ div:first-of-type{
     justify-content: center;
     padding: 10px;
     margin:0 auto;
+    margin-bottom: 10px;
 }
 img{
     width: 100px;
